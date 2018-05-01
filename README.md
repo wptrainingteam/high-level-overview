@@ -41,11 +41,21 @@ You will be better equipped to work through this lesson if you have experience i
 
 ### WordPress Origins
 
-WordPress was first released in May 2003 as a blogging application. It was an adaptation (known in the programming world as a _fork_) by Matt Mullenweg and Mike Little of another program called b2/cafelog. The word _Blog_ is a contraction of the earlier term _Web Log_. In 2003, blogs were simple websites with a single purpose: display journal entries called _posts_ in reverse chronological order with the most recent at the top. These posts could include text, images, and links. One of the key decisions that Matt and Mike made for WordPress was to release it as _open source software_. This means that the software - including the underlying programming code - is licensed for anyone to freely use, copy, and modify in any way they choose. This is in contrast to _proprietary software_, where the software is under restrictive copyright and the source code is usually hidden from the users. Matt Mullenweg also founded a company, _Automattic_, which owns and operates WordPress.com (more on that later). In 2010, Automattic transferred the WordPress trademark to the nonprofit _WordPress Foundation_, which operates WordPress.org, manages the WordPress core software, and hosts the official directories of themes and plugins.
+WordPress was first released in May 2003 as a blogging application. It was an adaptation (known in the programming world as a _fork_) by Matt Mullenweg and Mike Little of another program called b2/cafelog. 
+
+The word _Blog_ is a contraction of the earlier term _Web Log_. In 2003, blogs were simple websites with a single purpose: display journal entries called _posts_ in reverse chronological order with the most recent at the top. These posts could include text, images, and links. 
+
+One of the key decisions that Matt and Mike made for WordPress was to release it as _open source software_. This means that the software - including the underlying programming code - is licensed for anyone to freely use, copy, and modify in any way they choose. This is in contrast to _proprietary software_, where the software is under restrictive copyright and the source code is usually hidden from the users. 
+
+Matt Mullenweg also founded a company, _Automattic_, which owns and operates WordPress.com (more on that later). In 2010, Automattic transferred the WordPress trademark to the nonprofit _WordPress Foundation_, which operates WordPress.org, manages the WordPress core software, and hosts the official directories of themes and plugins.
 
 ### What Is a Content Management System?
 
-When WordPress was released in 2003, the majority of websites were programmed by hand, using a text markup language called _Hypertext Markup Language_ (_HTML). _While HTML isn't a complex programming language, it does present a barrier to entry for many people who want to publish online. _Content Management Systems_ (_CMS)_ were created to eliminate the need for any kind of programming by the users of a web publishing system. The user interface of a CMS for editing web pages looks similar to a word processor. There are controls for formatting text and adding links. Writing tools like spell checking and undo are included. And because web pages need pictures, the CMS is also capable of adding, positioning, and sometimes editing images. There are other requirements of a CMS that are unlike those of a word processor:
+When WordPress was released in 2003, the majority of websites were programmed by hand, using a text markup language called _Hypertext Markup Language_ (_HTML). _While HTML isn't a complex programming language, it does present a barrier to entry for many people who want to publish online. _Content Management Systems_ (_CMS)_ were created to eliminate the need for any kind of programming by the users of a web publishing system. 
+
+The user interface of a CMS for editing web pages looks similar to a word processor. There are controls for formatting text and adding links. Writing tools like spell checking and undo are included. And because web pages need pictures, the CMS is also capable of adding, positioning, and sometimes editing images. 
+
+There are other requirements of a CMS that are unlike those of a word processor:
 
 *   It needs to allow the creation of new web pages and adding them into a navigation system that is visible on the _public-facing_ website.
 *   More than one person at a time can use a CMS. It has to include a mechanism to prevent people from overwriting each other's work. Often, this includes a versioning system that makes it possible to compare changes and return to an earlier version of a page if necessary.
