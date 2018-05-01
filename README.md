@@ -155,7 +155,15 @@ Make sure that you write down the account access information for your domain reg
 
 #### Web Hosting
 
-Web hosting companies provide space on their computers for the files and databases that make up most websites, including your WordPress site. These computers are usually located in large data centers with multiple power sources and large networks connecting them to the Internet. There are two main types of hosting services: _shared hosting_ and _dedicated hosting_. Shared hosting is the most common configuration since it is the least expensive, and means that you share computer hardware with many other websites but that all of these sites are all kept separate by special software. No one is able to access anyone else's site. Each shared hosting account has its own _control panel_ that lets you control various aspects of your site. This is where the "one-click install" for WordPress is found, provided that the hosting company offers it. Dedicated hosting means that your website is hosted on a computer that has the sole function of hosting your website. With a dedicated server, you do not share hardware with other websites. When selecting a web hosting company, it's a good idea to go online and look for reviews about the different companies. You want to choose one that's in your price range but that also has a good reputation for customer service and performance. Once you have a web host with WordPress installed and a domain name that is pointed to the host's nameservers, you're online! You can then move on to the actual business of setting up your self-hosted WordPress site.  
+Web hosting companies provide space on their computers for the files and databases that make up most websites, including your WordPress site. These computers are usually located in large data centers with multiple power sources and large networks connecting them to the Internet. 
+
+There are two main types of hosting services: _shared hosting_ and _dedicated hosting_. Shared hosting is the most common configuration since it is the least expensive, and means that you share computer hardware with many other websites but that all of these sites are all kept separate by special software. No one is able to access anyone else's site. Each shared hosting account has its own _control panel_ that lets you control various aspects of your site. This is where the "one-click install" for WordPress is found, provided that the hosting company offers it. 
+
+Dedicated hosting means that your website is hosted on a computer that has the sole function of hosting your website. With a dedicated server, you do not share hardware with other websites. 
+
+When selecting a web hosting company, it's a good idea to go online and look for reviews about the different companies. You want to choose one that's in your price range but that also has a good reputation for customer service and performance. 
+
+Once you have a web host with WordPress installed and a domain name that is pointed to the host's nameservers, you're online! You can then move on to the actual business of setting up your self-hosted WordPress site.  
 
 ## Exercises
 
