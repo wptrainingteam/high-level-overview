@@ -9,7 +9,7 @@ This lesson is an introduction to WordPress for people who have heard of it, but
 At the end of this lesson, you will be able to:
 
 *   Outline and describe the basic history of WordPress.
-*   Identify the differences between WordPress.com and WordPress. org.
+*   Identify the differences between WordPress.com and WordPress.org.
 *   Explain the advantages of self-hosting.
 *   Distinguish the various roles involved in a WordPress site.
 *   Identify and explain the various building blocks of WordPress.
