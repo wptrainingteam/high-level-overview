@@ -51,7 +51,7 @@ Matt Mullenweg also founded a company, _Automattic_, which owns and operates Wor
 
 ### What Is a Content Management System?
 
-When WordPress was released in 2003, the majority of websites were programmed by hand, using a text markup language called _Hypertext Markup Language_ (_HTML). _While HTML isn't a complex programming language, it does present a barrier to entry for many people who want to publish online. _Content Management Systems_ (_CMS)_ were created to eliminate the need for any kind of programming by the users of a web publishing system. 
+When WordPress was released in 2003, the majority of websites were programmed by hand, using a text markup language called _Hypertext Markup Language_ (_HTML)_. While HTML isn't a complex programming language, it does present a barrier to entry for many people who want to publish online. _Content Management Systems_ (_CMS)_ were created to eliminate the need for any kind of programming by the users of a web publishing system. 
 
 The user interface of a CMS for editing web pages looks similar to a word processor. There are controls for formatting text and adding links. Writing tools like spell checking and undo are included. And because web pages need pictures, the CMS is also capable of adding, positioning, and sometimes editing images. 
 
