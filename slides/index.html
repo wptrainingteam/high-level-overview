@@ -3,173 +3,249 @@
 <head>
 	<title>WordPress Training Team Presentation Engine</title>
 	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="shower/themes/ribbon/styles/screen-16x10.css">
-	<link rel="stylesheet" href="https://wptrainingteam.github.io/shower/themes/ribbon/styles/screen-16x10.css">
+	<meta content="ie=edge" http-equiv="x-ua-compatible">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="shower/themes/ribbon/styles/screen-16x10.css" rel="stylesheet">
+	<link href="https://wptrainingteam.github.io/shower/themes/ribbon/styles/screen-16x10.css" rel="stylesheet">
 </head>
 <body class="shower list">
-
 	<header class="caption">
-		<h1>WordPress Training Team Presentation Template</h1>
+		<h1>WordPress High Level Overview</h1>
 		<p><a href="https://github.com/shower/shower">Based on Shower</a></p>
 	</header>
-
 	<section class="slide" id="cover">
-		<h2>WordPress Training Team Lesson Plan Slides</h2>
-		<p>The approved format for official Training Team slides</p>
+		<h2>WordPress High Level Overview</h2>
+		<p>Why, What, and How do you WordPress?</p>
 		<figure>
-			<img class="cover" src="pictures/cover.jpg" alt="WordPress logo blueprint style">
+			<img alt="WordPress logo blueprint style" class="cover" src="pictures/cover.jpg">
 			<figcaption class="white">
 				<a href="https://wp-wallpaper.com/">Created by Michelle Schulp</a>
 			</figcaption>
 		</figure>
 	</section>
-
 	<section class="slide">
-		<h2>Key features</h2>
+		<h2>Objectives</h2>
 		<ol>
-			<li>Built on HTML, CSS and vanilla JavaScript</li>
-			<li>Works in all modern browsers</li>
-			<li>Theme is separated from content</li>
-			<li>Able to be used offline</li>
-			<li>Fully keyboard accessible</li>
-			<li>Printable to PDF</li>
+			<li>Outline and describe the basic history of WordPress.</li>
+			<li>Identify the differences between WordPress.com and WordPress.org.</li>
+			<li>Explain the advantages of self-hosting.</li>
+			<li>Distinguish the various roles involved in a WordPress site.</li>
+			<li>Identify and explain the various building blocks of WordPress.</li>
 		</ol>
 	</section>
-
 	<section class="slide">
-		<h2>Plain text on your slides</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
+		<h2>History</h2>
+		<p>WordPress was first <a href="https://wordpress.org/download/releases/" target="_blank">released</a> in May 2003 as a blogging application. It was an adaptation (known in the programming world as a fork) by Matt Mullenweg and Mike Little of another program called b2/cafelog. <a href="https://wordpress.org/support/article/history/">More history</a></p>
+		<table>
+			<tr>
+				<td>
+					<figure>
+						<img alt="" height="233" src="pictures/matt.jpg" width="350">
+						<figcaption>
+							Matt Mullenweg - <a href="https://automattic.com/press/">Image courtesy of Automattic</a>
+						</figcaption>
+					</figure>
+				</td>
+				<td>
+					<figure>
+						<img alt="" height="250" src="pictures/mike_little.jpg" width="250">
+						<figcaption>
+							Mike Little - <a href="https://en.wikipedia.org/wiki/Mike_Little">Image courtesy of Wikipedia</a>
+						</figcaption>
+					</figure>
+				</td>
+			</tr>
+		</table>
 	</section>
-
 	<section class="slide">
-		<h2>Two columns if you like</h2>
-		<p class="double">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+		<h2>Blogs</h2>
+		<p>The word Blog is a contraction of the earlier term Web Log. In 2003, blogs were simple websites with a single purpose: display journal entries called posts in reverse chronological order with the most recent at the top. These posts could include text, images, and links.</p>
 	</section>
-
 	<section class="slide">
-		<h2>All kind of lists</h2>
-		<ol>
-			<li>Simple lists are marked with bullets</li>
-			<li>Ordered lists begin with a number</li>
-			<li>You can even nest lists one inside another
+		<h2>Open Source</h2>
+		<p>One of the key decisions that Matt and Mike made for WordPress was to release it as <a href="https://opensource.org/osd-annotated" target="_blank">open source software</a>. This means that the software - including the underlying programming code - is <a href="https://wordpress.org/about/license/" target="_blank">licensed</a> for anyone to freely use, copy, and modify in any way they choose. This is in contrast to proprietary software, where the software is under restrictive copyright and the source code is usually hidden from the users.</p>
+	</section>
+	<section class="slide">
+		<h2>Blogs</h2>
+		<p>Matt Mullenweg also founded a company, <a href="http://automattic.com" target="_blank">Automattic</a>, which owns and operates <a href="http://wordpress.com" target="_blank">WordPress.com</a> (more on that later). In 2010, Automattic transferred the WordPress trademark to the nonprofit <a href="https://wordpressfoundation.org/" target="_blank">WordPress Foundation</a>, which operates WordPress.org, manages the WordPress core software, and hosts the official directories of themes and plugins.</p>
+	</section>
+	<section class="slide">
+		<h2>Content Management Systems</h2>
+		<p>When WordPress was released in 2003, the majority of websites were programmed by hand, using a text markup language called Hypertext Markup Language (HTML).</p><p>Content Management Systems (CMS) were created to eliminate the need for any kind of programming by the users of a web publishing system.</p>
+	</section>
+	<section class="slide">
+		<h2>Content Management Systems</h2>
+		<p>But - yes, you still may want to <strong>learn to code</strong>.</p>
+		<p>Coding opens the way to change the look and functionality of your website.</p>
+	</section>
+	<section class="slide">
+		<h2>CMS Requirements</h2>
+		<ul>
+			<li>It needs to allow the creation of new web pages and adding them into a navigation system that is visible on the public-facing website.</li>
+			<li>More than one person at a time can use a CMS. It has to include a mechanism to prevent people from overwriting each other's work.</li>
+			<li>Each person using a CMS needs a way to sign in and manage their own account.</li>
+			<li>People need to have different levels of permission to make changes, which are called roles. While some may be allowed to create and publish new content, others may be restricted to writing or viewing only.</li>
+		</ul>
+		</section>
+	<section class="slide">
+		<h2>Popular CMS Systems</h2>
+		<ul>
+			<li>WordPress 37.7%</li>
+			<li>Shopify 2.5%</li>
+			<li>Joomla 2.4%</li>
+			<li>Drupal 1.6%</li>
+			<li>Squarespace 1.5%</li>
+			<li>Wix 1.5%</li>
+			<p>Source: <a href="https://w3techs.com/technologies/overview/content_management">w3techs</a></p>
+		</ul>
+	</section>
+	<section class="slide">
+		<h2 class="shout shrink">WordPress.com<br>
+		vs<br>
+		WordPress.org</h2>
+	</section>
+	<section class="slide">
+		<h2>WordPress.com</h2>
+		<ul>
+			<li>Free and hosted for you
 				<ul>
-					<li>Or mix their types</li>
-					<li>But do not go too far</li>
-					<li>Otherwise audience will be bored</li>
+					<li>Ad supported</li>
+					<li>Upsells for no ads, domain name, themes, plugs</li>
 				</ul>
 			</li>
-			<li>Look, seven rows exactly!</li>
-		</ol>
+			<li>Hosting company is responsible for maintaining server, WP installation</li>
+			<li>Customer support</li>
+			<li>
+				<a href="https://wpvip.com/" target="_blank">VIP hosting</a> for large sites like BBC America, Pioneer Woman, Star Wars
+			</li>
+		</ul>
 	</section>
-
 	<section class="slide">
-		<h2>Serious citations</h2>
-		<figure>
-			<blockquote>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-			</blockquote>
-			<figcaption>Marcus Tullius Cicero</figcaption>
-		</figure>
+		<h2>WordPress.org</h2>
+		<ul>
+			<li>You can download the software</li>
+			<li>Pick your own hosting/server
+				<ul>
+					<li>One-Click installation</li>
+				</ul>
+			</li>
+		</ul>
+		<ul>
+			<li>Full control
+				<ul>
+					<li>7,500+ <a href="https://wordpress.org/themes/" target="_blank">themes</a>, 57,000+ <a href="https://wordpress.org/plugins/" target="_blank">plugins</a>, Many more paid options
+					</li>
+				</ul>
+			</li>
+			<li>Cofigure/maintain it yourself</li>
+			<li>Community: <a href="https://central.wordcamp.org/" target="_blank">Events</a>, <a href="https://make.wordpress.org/" target="_blank">Contributor Teams</a>, Social Media, and so much more.
+			</li>
+		</ul>
 	</section>
-
 	<section class="slide">
-		<h2>Code samples</h2>
-		<pre>
-			<code>&lt;!DOCTYPE html&gt;</code>
-			<code class="mark">&lt;html lang="en"&gt;</code>
-			<code><mark>&lt;head&gt;</mark> <span class="comment">&lt;!--Comment--&gt;</span></code>
-			<code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-			<code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
-			<code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-			<code><mark>&lt;/head&gt;</mark></code>
-		</pre>
+		<h2>Self-hosted permissions</h2>
+		<ul>
+			<li><strong>Subscriber</strong> – somebody who can only manage their profile.</li>
+			<li><strong>Contributor</strong> – somebody who can write and manage their own posts.</li>
+			<li><strong>Author</strong> – somebody who can publish and manage their own posts.</li>
+			<li><strong>Editor</strong> – somebody who can publish and manage posts, including other users.</li>
+			<li><strong>Administrator</strong> – somebody who has access to all of the administration features within a single site.</li>
+			<li><strong>Super Admin</strong> (multi-site installations only) – somebody with access to the site network administration features and all other features.</li>
+		</ul>
 	</section>
-
 	<section class="slide">
-		<h2>Even tables</h2>
-		<table>
-		<tr>
-			<th scope="col">Locavore</th>
-			<th>Umami</th>
-			<th>Helvetica</th>
-			<th>Vegan</th>
-		</tr>
-		<tr>
-			<th scope="row">Fingerstache</th>
-			<td>Kale</td>
-			<td>Chips</td>
-			<td>Keytar</td>
-		</tr>
-		<tr>
-			<th scope="row">Sriracha</th>
-			<td>Gluten-free</td>
-			<td>Ennui</td>
-			<td>Keffiyeh</td>
-		</tr>
-		<tr>
-			<th scope="row">Thundercats</th>
-			<td>Jean</td>
-			<td>Shorts</td>
-			<td>Biodiesel</td>
-		</tr>
-		<tr>
-			<th scope="row">Terry</th>
-			<td>Richardson</td>
-			<td>Swag</td>
-			<td>Blog</td>
-		</tr>
-		</table>
-		<p>It’s good to have information organized.</p>
+		<h2>WordPress Core</h2>
+		<li>Files that make up the WordPress application that may be on a server.</li>
 	</section>
 
-	<section class="slide" id="picture">
-		<h2>Pictures or Screenshots</h2>
-		<figure>
-			<img class="cover" src="pictures/picture.jpg" alt="WordPress logo blueprint style">
-			<figcaption class="white">
-				<a href="https://wp-wallpaper.com/">Created by Michelle Schulp</a>
-			</figcaption>
-		</figure>
+
+<section class="slide">
+<h2>WordPress Core</h2>
+<p>The WordPress core consists of all of the files that make up the WordPress application. These files are placed on a server computer, which may or may not be attached to the Internet. For the purposes of this discussion, let's assume that the server is on a hosting service. You can obtain these files in a couple of ways:</p>
+</section>
+<section class="slide">
+<ol>
+ 	<li><a href="https://wordpress.org/download/">Go to WordPress.org</a> and click the "Get WordPress" followed by "Download WordPress" buttons. This will download all of the files bundled together into a single <em>zip file</em>, to your local computer. You will then need to copy this file to your hosting server using either their file management tool or a separate <em>FTP program</em>. Then the zip file needs to be <em>unzipped</em> into the appropriate location on the server for website files.</li>
+ 	<li>A much easier process is to use the hosting service's one-click install to automatically download the WordPress files, put them in the right place, create a database, and do all of the associated initial site configuration. This process takes you right up to creating your own Administrator account.</li>
+</ol>
+</section>
+<section class="slide">
+<p>WordPress is written in a programming language called PHP. That's why many of the core files have the .php <em>file extension</em>. Except in very unusual cases, you should <strong>never edit the core files</strong>.</p><p> When you want to make changes to the way WordPress behaves, it should be done by editing your site's theme - or preferably <em>child theme</em> - files. How to make these changes goes beyond the scope of this class, but there are more advanced classes that go into it in detail.</p></section>
+<section class="slide">
+<h2>Database</h2>
+<p>All of the data about your site - including all text content - is stored in a <em>MySQL</em> database. This database is automatically created when you use a one-click install. If you are uploading the core files yourself, you will also need to create this database and enter information about it into a special configuration file, called wp-config.php, in the root directory of your installation. Making changes to this file is one of the few exceptions to the "never edit the core files" rule.</p>
+</section>
+<section class="slide">
+<p>Other than knowing that the database exists, there isn't anything that you need to know to maintain it. If you suspect a problem with your WordPress database and haven't worked with databases before, it's probably best to contact your hosting service's tech support department for assistance.</p>
+</section>
+<section class="slide">
+<h2>Theme</h2>
+<p>Everything about the way your WordPress site appears in the browser, including its layout, colors, and fonts, is controlled by its theme. There are thousands of themes available around the web, both free and paid.</p><p>	All of the themes on WordPress.org have been reviewed against a <a href="https://make.wordpress.org/themes/">set of guidelines</a> that include code quality, security, licensing, and documentation. Some free themes that do not come from WordPress.org have been purposely infected with malware or have simply been coded insecurely.</p>
+</section>
+<section class="slide">
+<p>In the <a href="https://wordpress.org/themes/">theme repository</a>, you can search for themes by color, number of columns, layout, and features. Or you can browse the most popular or newest themes. To use a theme, it must be <em>installed</em> and <em>activated</em>. This is easily done from the Themes menu of WordPress administration area.</p>
+<p>Once a theme is activated, it may include features such as changing colors or layouts. The documentation for the theme will describe all of these options. There's nothing wrong with trying out as many themes as you like before settling on the best one for your site.</p>
+</section>
+<section class="slide">
+<p>There is an also subset of themes known as child themes. A child theme is a theme that inherits the functionality of another theme, called the <em>parent theme</em>. Child themes allow you to modify or add to the functionality of the parent. A child theme can be created from any theme and using one will prevent changes that you make from being lost if you update the parent theme.</p>
+<p>If you're using a child theme, note that both the child and parent themes need to be installed, but that only the child will be activated.</p></section>	
+<section class="slide">
+<h2>Plugins</h2>
+<p>If themes control how your site looks, plugins control what it does. Plugins are software modules that work with the WordPress core to make your site do everything from e-commerce to photo slideshows.</p>
+<p>As with themes, the best place to find free plugins is in the WordPress.org <a href="https://wordpress.org/plugins/">plugin repository</a>. You can search for the type of plugin that you're looking for and read descriptions and reviews of those available.</p>
+</section>	
+<section class="slide">
+<h2>Selecting Plugins:</h2>
+<ul>
+ 	<li>Look for those with large numbers of positive reviews, downloads, and ratings. A plugin with a 5-star rating and 100 downloads may not be as good as a one with a 4-star rating and 100,000 downloads.</li>
+ 	<li>Look for those that are compatible with the current version of WordPress and have a recent "last updated" date. That indicates that the plugin is under active development.</li>
+ 	<li>Click the "Support" link and see what kind of problems users are reporting. All software has bugs, but make sure that the plugin you are planning to use isn't crippled by them.</li>
+</ul> 
+</section>
+<section class="slide">
+<p>Some plugins are built on a <em>freemium</em> model. This means that a basic version of the plugin is provided for free, but that more advanced or add-on features are available for a fee. Make sure that you read the descriptions carefully to see what, if any, paid features you will want to use. And like themes, you can always try out multiple plugins before settling on one that best meets your needs.</p></section>
+<section class="slide">
+<h2>Domains</h2>
+<p>To host your own WordPress site, you will need a <em>domain name</em>. These are the unique names that end in .com, .org, .net, or any of the other available extensions. These extensions are actually called <em>top level domains</em> (<em>TLD)</em>. Domains are registered and managed through companies called <em>domain registrars</em>.</p>
+</section>
+<<section class="slide">
+<p>Every domain name must be unique, which is why it can be so hard to find one that is short and memorable in the most common TLDs. Recently, a whole slew of new TLDs have been created including .computer, .dating, .gift, and yes, .pizza. Most people try and stick with .com, especially for a business, because it is what people are most used to and find easiest to remember.</p></section>
+<section class="slide">
+<p>Once you find an available domain name, you will need to register it. During this process, you will be asked to designate four contacts: Registrant, Admin, Technical, and Billing. These can all be the same person or different people. Registrant and Admin are the most important, because they have the most control over the domain registration record and the approval process for how the domain is used.</p>
+</section>
+<section class="slide">
+<p>The other important setting in the domain registration is for the <em>nameservers</em> used by the domain. Nameservers are computers on the Internet that act like address books, mapping domain names to the address of computers that host services like websites and email.</p><p>When you first register a name, it will use the nameserver of the domain registrar itself. At this point, if you type the domain name into a browser, you'll probably get a "this page under construction" page, branded with the registrar's name and logo.</p>
+</section>
+<section class="slide">
+<p>If the company you've registered with is also your web hosting company, you may not need to change the nameservers. However, if the companies are different, you will need to change the nameservers (there are always at least 2 of them for redundancy) to those of the company where your WordPress site is hosted.</p>
+</section>
+<section class="slide">
+Make sure that you store the account access information for your domain registrar. Because the information there tends to be of the set-and-forget type, people often lose track of their username and password, or change email address without updating it at the registrar. Eventually, you'll need to log back into this account and there's nothing more frustrating than trying to retrieve the password for an account that was set up by someone whose email address no longer exists.
+</section>
+<section class="slide">
+<h2>Web Hosting</h2>
+<p>Web hosting companies provide space on their computers for the files and databases that make up most websites, including your WordPress site. These computers are usually located in large data centers with multiple power sources and large networks connecting them to the Internet.</p>
+<p>There are two main types of hosting services: <em>shared hosting</em> and <em>dedicated hosting</em>.</p> 
 	</section>
-
-	<section class="slide">
-		<h2 class="shout shrink">You can even shout this way</h2>
-	</section>
-
-	<section class="slide">
-		<h2>Inner navigation</h2>
-		<ol>
-			<li>Lets you reveal list items one by one</li>
-			<li class="next">To keep some key points</li>
-			<li class="next">In secret from audience</li>
-			<li class="next">But it will work only once</li>
-			<li class="next">Nobody wants to see the same joke twice</li>
-		</ol>
-	</section>
-
-	<section class="slide grid">
-		<h2>All nicely aligned to grid</h2>
-	</section>
-
-	<section class="slide" id="see-more">
-		<h2 class="shout">
-			<img src="pictures/logo.png" alt="WordPress logo">
-			<a href="https://github.com/wptrainingteam">Find the team on GitHub</a>
-		</h2>
-	</section>
-
-	<!-- <footer class="badge">
-		<a href="https://github.com/shower/shower">Fork me on GitHub</a>
-	</footer> -->
-
+<section class="slide">Shared hosting is the most common configuration since it is the least expensive, and means that you share computer hardware with many other websites but that all of these sites are all kept separate by special software. No one is able to access anyone else's site. Each shared hosting account has its own <em>control panel</em> that lets you control various aspects of your site. This is where the "one-click install" for WordPress is found, provided that the hosting company offers it.</p>
+</section>
+<section class="slide">
+<p>Dedicated hosting means that your website is hosted on a computer that has the sole function of hosting your website. With a dedicated server, you do not share hardware with other websites.</p>
+</section>
+<section class="slide">
+<p>When selecting a web hosting company, it's a good idea to go online and look for reviews about the different companies. You want to choose one that's in your price range but that also has a good reputation for customer service and performance.</p>
+</section>
+<section class="slide">
+<p>Once you have a web host with WordPress installed and a domain name that is pointed to the host's nameservers, you're online! You can then move on to the actual business of setting up your self-hosted WordPress site.</p>
+</section>
+<!-- <footer class="badge">
+        <a href="https://github.com/shower/shower">Fork me on GitHub</a>
+    </footer> -->
 	<div class="progress"></div>
-
-	<script src="shower/shower.min.js"></script>
-	<script src="https://wptrainingteam.github.io/shower/shower.min.js"></script>
-	<!-- Copyright © 2018 Yours Truly, Famous Inc. -->
-	<!-- MIT License -->
-
+	<script src="shower/shower.min.js">
+	</script> 
+	<script src="https://wptrainingteam.github.io/shower/shower.min.js">
+	</script> <!-- Copyright © 2018 Yours Truly, Famous Inc. -->
+	 <!-- MIT License -->
 </body>
 </html>
