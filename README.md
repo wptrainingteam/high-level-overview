@@ -121,7 +121,7 @@ In the theme repository, you can search for themes by color, number of columns, 
 
 Once a theme is activated, it may include features such as changing colors or layouts. The documentation for the theme will describe all of these options. There's nothing wrong with trying out as many themes as you like before settling on the best one for your site. 
 
-There is a also subset of themes known as child themes. A child theme is a theme that inherits the functionality of another theme, called the _parent theme_. Child themes allow you to modify or add to the functionality of the parent. A child theme can be created from any theme and using one will prevent changes that you make from being lost if you update the parent theme. 
+There is an also subset of themes known as child themes. A child theme is a theme that inherits the functionality of another theme, called the _parent theme_. Child themes allow you to modify or add to the functionality of the parent. A child theme can be created from any theme and using one will prevent changes that you make from being lost if you update the parent theme. 
 
 If you're using a child theme, note that both the child and parent themes need to be installed, but that only the child will be activated.
 
