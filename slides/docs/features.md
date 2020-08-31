@@ -86,7 +86,11 @@ Caption is visible only in the list mode. Don’t forget to also specify present
 Badge with “Fork me on GitHub” link (or any other call to action) is marked with `badge` element.
 
 	<footer class="badge">
+<<<<<<< HEAD
 		<a href="…">Fork me on Github</a>
+=======
+		<a href="…">Fork me on GitHub</a>
+>>>>>>> f6c279c924d9db616d5fefa03d6dceab4c7022d9
 	</footer>
 
 Badge is visible only in the list mode.
@@ -132,7 +136,11 @@ Slide type `clear` could also hide slide number.
 
 ### Types
 
+<<<<<<< HEAD
 Types are changing slide’s look. You can set type by adding class to the main `slide`. There are few built-in types available in the theme, you could also describe custom types for each presention or add it to your theme.
+=======
+Types are changing slide’s look. You can set type by adding class to the main `slide`. There are few built-in types available in the theme, you could also describe custom types for each presentation or add it to your theme.
+>>>>>>> f6c279c924d9db616d5fefa03d6dceab4c7022d9
 
 #### White
 
@@ -305,7 +313,11 @@ If you want to add lines numbers use next construction:
 		<code>}<code>
 	</pre>
 
+<<<<<<< HEAD
 When neccessary emphasize that code is commented, you need to use span element with `comment` class;
+=======
+When necessary emphasize that code is commented, you need to use span element with `comment` class;
+>>>>>>> f6c279c924d9db616d5fefa03d6dceab4c7022d9
 If you want to color part of code, wrap this part with `mark` to add yellow background and `mark` with `important` class to add red background;
 
 	<pre><code>function <mark>action()</mark> {
@@ -391,7 +403,11 @@ You can also combine classes for location in corners:
 
 #### Notes
 
+<<<<<<< HEAD
 When neccessary to add some notes for slide, you may use `footer` class, that hide your notes at all time and show them when you hover to slide:
+=======
+When necessary to add some notes for slide, you may use `footer` class, that hide your notes at all time and show them when you hover to slide:
+>>>>>>> f6c279c924d9db616d5fefa03d6dceab4c7022d9
 
 	<section class="slide">
 		<p>Retro meh brunch aesthetic.</p>
