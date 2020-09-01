@@ -202,4 +202,4 @@ N/A  
 
 ## Additional Resources
 
-[WordPress Features](https://codex.wordpress.org/WordPress_Features) @ Codex
+[WordPress Features](https://wordpress.org/support/article/wordpress-features/) @ WordPress Support
