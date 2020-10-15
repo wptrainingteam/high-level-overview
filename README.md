@@ -2,7 +2,7 @@
 
 ## Description
 
-This lesson is an introduction to WordPress for people who have heard of it, but are not quite sure what it does or if it is the right tool for them. You will learn about the origins of WordPress and its evolution from a blogging platform to a full fledged content management system. We will also look at some of its components and how they are used to build a functional website. Finally, we will talk about the third party services you will need to operate a self-hosted WordPress site.  
+This lesson is an introduction to WordPress for people who have heard of it, but are not quite sure what it does or if it is the right tool for them. You will learn about the origins of WordPress and its evolution from a blogging platform to a full-fledged content management system. We will also look at some of its components and how they are used to build a functional website. Finally, we will talk about the third party services you will need to operate a self-hosted WordPress site.  
 
 ## Objectives
 
@@ -34,8 +34,8 @@ You will be better equipped to work through this lesson if you have experience i
 ## Teacher Notes
 
 *   **Time Estimate:** 30 minutes
-*   Words in _italics_ have meaning specific to WordPress or the Internet that are useful for students to know. Only the first instance of these words is italicized.
-*   The preferred answers to the screening questions is “yes.” Participants who reply “no” to all either of the questions may not be ready for this lesson.
+*   Words in _italics_ have a meaning specific to WordPress or the Internet that are useful for students to know. Only the first instance of these words is italicized.
+*   The preferred answers to the screening questions are “yes.” Participants who reply “no” to all either of the questions may not be ready for this lesson.
 
 ## Hands-on Walkthrough
 
@@ -76,12 +76,12 @@ WordPress.org is the official website for _self-hosted_ WordPress installations
 
 ### Advantages of Self-Hosting
 
-You may be asking at this point, why go to all the trouble of self hosting when you can use the same software for free over at WordPress.com? Here's a short list of the benefits of a self-hosted WordPress installation:
+You may be asking at this point, why go to all the trouble of self hosting when you can use the same software for free over at WordPress.com? Here's a shortlist of the benefits of a self-hosted WordPress installation:
 
 *   **Control.** From the very beginning, you choose where your site lives, what it looks like, how it is configured, and what it can do. Almost every web hosting service in the world supports WordPress, many of them offering _one-click installation_. If you become unhappy with your current host, you can easily pack up and move your site somewhere else.
 *   **Flexibility.** WordPress.com offers only a handful of themes, but there are nearly 5,000 themes in the WordPress.org repository. When you want to add to the functionality of your WordPress site, there are almost 50,000 plugins there as well, almost all of them free.
 *   **Community.** Because WordPress has its roots in open source, there is a huge community of people contributing to its development and sharing their knowledge. You'll find a multitude of blogs, forums, and classes like this one devoted to helping users at all levels. And since WordPress is the most widely used CMS in the world, if you decide to hire a professional to help you, you'll have no trouble finding one.
-*   **A thriving marketplace.** Although WordPress itself is free, open source software, an entire industry has sprung up around delivering services to WordPress site owners. You may choose to pay for these _premium_ services for the support that they provide and the professionalism that they bring to their products. While there are many excellent free themes and plugins available on WordPress.org, their developers are under no obligation to keep them updated or provide any kind of customer support. The fact than many of them do is one of the great things about the WordPress community.
+*   **A thriving marketplace.** Although WordPress itself is free, open source software, an entire industry has sprung up around delivering services to WordPress site owners. You may choose to pay for these _premium_ services for the support that they provide and the professionalism that they bring to their products. While there are many excellent free themes and plugins available on WordPress.org, their developers are under no obligation to keep them updated or provide any kind of customer support. The fact that many of them do is one of the great things about the WordPress community.
 
 ### WordPress Permissions
 
@@ -103,7 +103,7 @@ When you install the single-site version of WordPress, you will automatically be
 The WordPress core consists of all of the files that make up the WordPress application. These files are placed on a server computer, which may or may not be attached to the Internet. For the purposes of this discussion, let's assume that the server is on a hosting service. You can obtain these files in a couple of ways:
 
 1.  Go to WordPress.org and click the "Download WordPress" button. This will download all of the files bundled together into a single _zip file_, to your local computer. You will then need to copy this file to your hosting server using either their file management tool or a separate _FTP program_. Then the zip file needs to be _unzipped_ into the appropriate location on the server for website files.
-2.  A much easier process is to use the hosting service's one-click install to automatically download the WordPress files, put them in the right place, create a database, and do all of the associated initial site configuration. This process takes you right up to creating your own Administrator account.
+2.  A much easier process is to use the hosting service's one-click install to automatically download the WordPress files, put them in the right place, create a database, and do all of the associated initial site configurations. This process takes you right up to creating your own Administrator account.
 
 WordPress is written in a programming language called PHP. That's why many of the core files have the .php _file extension_. Except in very unusual cases, you should **never edit the core files**. When you want to make changes to the way WordPress behaves, it should be done by editing your site's theme - or preferably _child theme_ - files. How to make these changes goes beyond the scope of this class, but there are more advanced classes that go into it in detail.
 
@@ -182,7 +182,7 @@ N/A  
 
 * * *
 
-**If you have limited computer skills and want to focus on creating comment, which type of hosting should you use?**
+**If you have limited computer skills and want to focus on creating a comment, which type of hosting should you use?**
 
 1.  WordPress.com managed hosting
 2.  Self-hosting
